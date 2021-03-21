@@ -13,7 +13,11 @@ public class Presenter implements Comparator<Presenter>{
 	private String PresenterName;
 	private int PresentationHours;
 	private int PresentationCost;
+<<<<<<< HEAD
 	private int x;
+=======
+	private int y;
+>>>>>>> refs/remotes/origin/master
 	
 	
 	
