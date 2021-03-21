@@ -13,6 +13,7 @@ public class Presenter implements Comparator<Presenter>{
 	private String PresenterName;
 	private int PresentationHours;
 	private int PresentationCost;
+	private int y;
 	
 	
 	
