@@ -9,7 +9,12 @@ public class Presenter implements Comparator<Presenter>{
 	
 	
 	
-	
+	/**
+	 * 
+	 * @param presenterName
+	 * @param presentationHours
+	 * @param presentationCost
+	 */
 	public Presenter(String presenterName, int presentationHours, int presentationCost) {
 		super();
 		PresenterName = presenterName;
@@ -17,17 +22,26 @@ public class Presenter implements Comparator<Presenter>{
 		PresentationCost = presentationCost;
 	}
 	
+	/**
+	 * 
+	 */
 	public Presenter() {
 		
 	}
 	
 
-
+   /**
+    * 
+    * @return
+    */
 	public String getPresenterName() {
 		return PresenterName;
 	}
 
-
+    /**
+     * 
+     * @param presenterName
+     */
 	public void setPresenterName(String presenterName) {
 		PresenterName = presenterName;
 	}
@@ -37,17 +51,26 @@ public class Presenter implements Comparator<Presenter>{
 		return PresentationHours;
 	}
 
-
+    /**
+     * 
+     * @param presentationHours
+     */
 	public void setPresentationHours(int presentationHours) {
 		PresentationHours = presentationHours;
 	}
 
-
+    /**
+     * 
+     * @return
+     */
 	public int getPresentationCost() {
 		return PresentationCost;
 	}
 
-
+    /**
+     * 
+     * @param presentationCost
+     */
 	public void setPresentationCost(int presentationCost) {
 		PresentationCost = presentationCost;
 	}
