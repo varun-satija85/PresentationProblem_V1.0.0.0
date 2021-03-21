@@ -1,6 +1,10 @@
 package com.ConferenceOrganiser;
 import java.util.Comparator;
 
+/**
+*  added by VS185110
+*
+**/
 public class Presenter implements Comparator<Presenter>{
 	
 	private String PresenterName;
@@ -98,6 +102,9 @@ public class Presenter implements Comparator<Presenter>{
 	public String toString() {
 		return "Presenter [PresenterName=" + PresenterName + ", PresentationHours=" + PresentationHours
 				+ ", PresentationCost=" + PresentationCost + "]";
+	}
+	
+	public void t1(){
 	}
 	
 	
