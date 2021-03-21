@@ -10,7 +10,7 @@ public class Presenter implements Comparator<Presenter>{
 	
 	
 	/**
-	 * 
+	 * added by Varun Satija
 	 * @param presenterName
 	 * @param presentationHours
 	 * @param presentationCost
