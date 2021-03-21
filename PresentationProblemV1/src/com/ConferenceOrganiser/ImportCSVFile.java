@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class ImportCSVFile {
 	
 	/**
-	 * by Varun Satija
+	 * by Varun Satija dated today
 	 * @return
 	 */
 	public ArrayList<Presenter> readCsvFile() {
